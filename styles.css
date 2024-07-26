@@ -1,0 +1,206 @@
+/* Global selectors */
+* {
+    background-color: white;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #3AAFA9;
+}
+
+body {
+    width: 1200px;
+    margin: 20px auto;
+}
+
+/* Header */
+
+nav {
+    height: 65px;
+    margin-top: 20px;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 30px;
+    font-family: "Open Sans", 'Courier New', Courier, monospace;
+}
+
+.menu-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+.menu-list li a:hover {
+    color: #17252A;
+    height: 50px;
+}
+
+.menu {
+    float: right;
+}
+
+.titulo,
+.menu,
+.menu-list li {
+    display: inline-block;
+}
+
+/* Color Section */
+h2 {
+    font-family: "Open Sans", 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 30px;
+}
+
+section {
+    margin: 40px auto;
+    margin-bottom: 60px;
+}
+
+.color {
+    border: 1px solid black;
+    height: 220px;
+    width: 200px;
+    display: inline-block;
+    box-shadow: 10px 10px #003135;
+    margin-right: 30px;
+}
+
+.color:hover {
+    border: 5px solid black;
+    height: 250px;
+    width: 210px;
+}
+
+.color-info {
+    margin: 30px auto;
+}
+
+.color-type {
+    color: white;
+    font-size: 26px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.dark-blue {
+    background-color: #0B0C10;
+}
+
+.gray-blue {
+    background-color: #1F2833;
+}
+
+.dark-page-gray {
+    background-color: #C5C6C7;
+}
+
+.bright-blue {
+    background-color: #66FCF1;
+}
+
+.matte-blue {
+    background-color: #45A29E;
+}
+
+.light-mint-blue {
+    background-color: #244855;
+}
+
+.blooded-orange {
+    background-color: #E64833;
+}
+
+.desert-brown {
+    background-color: #874F41;
+}
+
+.pale-blue {
+    background-color: #90AEAD;
+}
+
+.beach-sand {
+    background-color: #FBE9D0;
+}
+
+.dark-mint-blue {
+    background-color: #003135;
+}
+
+.medium-mint-blue {
+    background-color: #024950;
+}
+
+.cool-brown {
+    background-color: #964734;
+}
+
+.cool-blue {
+    background-color: #0FA4AF;
+}
+
+.light-cool-blue {
+    background-color: #AFDDE5;
+}
+/* Fonts Section */
+.font-name {
+    font-family: "Open Sans", 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 24px;
+}
+
+.open-sans p {
+    font-family: "Open Sans", monospace;
+}
+
+.roboto-mono p {
+    font-family: "Roboto Mono", monospace;
+}
+
+.monospace p {
+    font-family: monospace, 'Courier New', Courier;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/* Text Styles Section */
+.p,
+p {
+    font-size: 24px;
+}
+
+.h1,
+h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.h2,
+h2 {
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.font {
+    margin: 10px auto;
+    font-weight: 400;
+}
+
+.text-style {
+    margin-bottom: 30px;
+}
+
+#text-styles h2 {
+    margin-bottom: 10px;
+}
+/* Footer */
+.info {
+    text-align: center;
+    margin: 20px;
+}
